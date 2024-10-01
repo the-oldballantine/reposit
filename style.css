@@ -20186,7 +20186,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .portfolio-item .portfolio-image > a {
   display: block;
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 .portfolio-rounded .portfolio-image {
   border-radius: calc(var(--dme-grid-filter-border-radius) + 1);
@@ -22742,11 +22742,11 @@ td.actions {
 .fbox-icon a,
 .fbox-icon i,
 .fbox-icon img {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  color: #fff;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
 }
 .fbox-icon i,
 .fbox-icon img {
@@ -31597,4 +31597,17 @@ body.dark {
 .dark #copyrights {
   color: rgba(255, 255, 255, 0.4);
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.system a,
+.system i,
+.system img {
+  display: inline-block;
+  position: relative;
+  top: -30px;
+  left: -30px;
+  width: 200px;
+  height: auto;
+  color: #fff;
+  margin-top: 2%;
 }
